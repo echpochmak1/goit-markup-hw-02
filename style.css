@@ -1,7 +1,15 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --more-dark: #434455;
+  --ocean: #404bbf;
+  --light: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: #434455;
+  color: var(--more-dark);
   font-weight: 400;
 }
 
@@ -19,14 +27,14 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #2e2f42;
+  color: var(--dark);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .web {
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 
 .navigation {
@@ -35,7 +43,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--dark);
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -46,13 +54,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--dark);
   letter-spacing: 0.02em;
 }
 
 .navigation-item:hover,
 .navigation-item:focus {
-  color: #404bbf;
+  color: var(--primary-brand);
 }
 .contacts {
   font-style: normal;
@@ -64,12 +72,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--more-dark);
   letter-spacing: 0.02em;
 }
 .contacts-item:hover,
 .contacts-item:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .name {
@@ -93,7 +101,7 @@ body {
 }
 .btn {
   font-family: "Roboto", sans-serif;
-  background: #4d5ae5;
+  background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-style: normal;
@@ -105,7 +113,7 @@ body {
   cursor: pointer;
 }
 .btn:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .goal {
 }
@@ -116,7 +124,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .text {
   font-family: "Roboto";
@@ -125,7 +133,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--more-dark);
 }
 
 .name-section {
@@ -135,14 +143,14 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--dark);
 }
 
 .footer .primery-logo {
-  color: #f4f4fd;
+  color: var(--light);
 }
 
 .footer-text {
