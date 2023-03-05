@@ -4,6 +4,7 @@
   --more-dark: #434455;
   --ocean: #404bbf;
   --light: #f4f4fd;
+  --white: #e7e9fc;
 }
 
 body {
@@ -157,5 +158,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--white);
 }
