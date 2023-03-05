@@ -82,6 +82,12 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+.name-section {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .our-skills {
   background-color: #2e2f42;
 }
