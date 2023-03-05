@@ -38,6 +38,7 @@ body {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .navigation-item {
