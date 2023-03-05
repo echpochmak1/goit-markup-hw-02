@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   color: #434455;
   font-weight: 400;
@@ -14,18 +14,20 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .secondary-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .navigation {
@@ -33,7 +35,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
@@ -43,7 +45,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
@@ -60,7 +62,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   letter-spacing: 0.02em;
@@ -75,7 +77,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -84,6 +86,7 @@ body {
   background-color: #2e2f42;
 }
 .btn {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -92,6 +95,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .btn:focus {
   color: #404bbf;
@@ -103,7 +108,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -112,7 +117,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -122,7 +127,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -131,12 +136,12 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: #e7e9fc;
 }
 .footer-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 16;
+  line-height: 1.16;
   color: #f4f4fd;
 }
