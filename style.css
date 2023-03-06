@@ -185,5 +185,5 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
 }
