@@ -16,3 +16,7 @@ body {
   color: var(--links);
   cursor: pointer;
 }
+
+.list {
+  list-style: none;
+}
