@@ -1,7 +1,18 @@
 :root {
   --body-text: #434455;
+  --links: #4d5ae5;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text);
+}
+
+.main-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--links);
+  cursor: pointer;
 }
