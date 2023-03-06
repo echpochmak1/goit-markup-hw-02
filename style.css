@@ -167,9 +167,12 @@ body {
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-logo-two {
