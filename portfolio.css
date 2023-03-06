@@ -37,3 +37,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-text);
 }
+
+.link {
+  text-decoration: none;
+}
