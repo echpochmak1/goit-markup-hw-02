@@ -43,10 +43,6 @@ body {
   color: var(--dark);
 }
 
-.web {
-  color: var(--primary-brand);
-}
-
 .navigation {
   font-family: "Roboto";
   font-style: normal;
@@ -185,5 +181,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
